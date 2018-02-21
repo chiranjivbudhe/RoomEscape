@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I "D:\Program Files\UE_4.17\Engine\Source"
-/I "D:\Unreal projects\EscapeRoom\Source"
-/I "D:\Unreal projects\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom"
-/I "D:\Unreal projects\EscapeRoom\Source\EscapeRoom"
+/I D:\GitHub\RoomEscape\EscapeRoom\Source
+/I D:\GitHub\RoomEscape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom
+/I D:\GitHub\RoomEscape\EscapeRoom\Source\EscapeRoom
 /I "D:\Program Files\UE_4.17\Engine\Source\Runtime\Core\Public"
 /I "D:\Program Files\UE_4.17\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "D:\Program Files\UE_4.17\Engine\Source\Runtime\Core\Public\Async"
@@ -355,9 +355,9 @@
 /FI"D:\Program Files\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Program Files\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Program Files\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Unreal projects\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoomGameModeBase.gen.cpp"
-/FI"D:\Unreal projects\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h"
-/Fo"D:\Unreal projects\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\EscapeRoomGameModeBase.gen.cpp.obj"
+"D:\GitHub\RoomEscape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Inc\EscapeRoom\EscapeRoomGameModeBase.gen.cpp"
+/FI"D:\GitHub\RoomEscape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\Definitions.EscapeRoom.h"
+/Fo"D:\GitHub\RoomEscape\EscapeRoom\Intermediate\Build\Win64\UE4Editor\Development\EscapeRoom\EscapeRoomGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4

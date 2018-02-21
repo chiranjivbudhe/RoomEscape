@@ -1,3 +1,3 @@
-D:\Unreal projects\EscapeRoom\Source\EscapeRoom\EscapeRoom.Build.cs
-D:\Unreal projects\EscapeRoom\Source\EscapeRoom.Target.cs
-D:\Unreal projects\EscapeRoom\Source\EscapeRoomEditor.Target.cs
+D:\GitHub\RoomEscape\EscapeRoom\Source\EscapeRoom\EscapeRoom.Build.cs
+D:\GitHub\RoomEscape\EscapeRoom\Source\EscapeRoom.Target.cs
+D:\GitHub\RoomEscape\EscapeRoom\Source\EscapeRoomEditor.Target.cs
