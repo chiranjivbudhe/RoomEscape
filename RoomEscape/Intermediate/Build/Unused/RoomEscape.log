@@ -1,12 +1,14 @@
 ﻿  Compiling game modules for hot reload
   Parsing headers for RoomEscapeEditor
     Running UnrealHeaderTool "D:\GitHub\RoomEscape\RoomEscape\RoomEscape.uproject" "D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\RoomEscapeEditor\Development\RoomEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for RoomEscapeEditor in 10.0481892 seconds
-  Performing 3 actions (4 in parallel)
-  PositionReport.cpp
-  [2/3] Link UE4Editor-RoomEscape-6073.dll
-  [3/3] Link UE4Editor-RoomEscape-6073.lib
-     Creating library D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-6073.lib and object D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-6073.exp
-     Creating library D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-6073.suppressed.lib and object D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-6073.suppressed.exp
+  Reflection code generated for RoomEscapeEditor in 8.52537 seconds
+  Performing 5 actions (4 in parallel)
+  RoomEscape.init.gen.cpp
+  OpenDoor.gen.cpp
+  OpenDoor.cpp
+  [4/5] Link UE4Editor-RoomEscape-3488.dll
+  [5/5] Link UE4Editor-RoomEscape-3488.lib
+     Creating library D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-3488.lib and object D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-3488.exp
+     Creating library D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-3488.suppressed.lib and object D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-3488.suppressed.exp
   Deploying RoomEscapeEditor Win64 Development...
-  Total build time: 18.67 seconds (Local executor: 2.57 seconds)
+  Total build time: 17.10 seconds (Local executor: 2.70 seconds)

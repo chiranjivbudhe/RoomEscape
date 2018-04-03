@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-RoomEscape-6073.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-RoomEscape-3488.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-RoomEscape-6073.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-RoomEscape-3488.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-RoomEscape-6073.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-RoomEscape-3488.lib",
 			"Type" : "ImportLibrary"
 		},
 		{

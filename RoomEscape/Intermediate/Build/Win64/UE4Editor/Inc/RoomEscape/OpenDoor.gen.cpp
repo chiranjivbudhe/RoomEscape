@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 	ROOMESCAPE_API UClass* Z_Construct_UClass_UOpenDoor();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_RoomEscape();
+	ENGINE_API UClass* Z_Construct_UClass_ATriggerVolume_NoRegister();
 // End Cross Module References
 	void UOpenDoor::StaticRegisterNativesUOpenDoor()
 	{
@@ -40,6 +41,8 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 				OuterClass->ClassFlags |= (EClassFlags)0x20B00080u;
 
 
+				UProperty* NewProp_pressurePlate = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("pressurePlate"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(pressurePlate, UOpenDoor), 0x0040000000000001, Z_Construct_UClass_ATriggerVolume_NoRegister());
+				UProperty* NewProp_openAngle = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("openAngle"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(openAngle, UOpenDoor), 0x0040000000020001);
 				static TCppClassTypeInfo<TCppClassTypeTraits<UOpenDoor> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -49,13 +52,17 @@ void EmptyLinkFunctionForGeneratedCodeOpenDoor() {}
 				MetaData->SetValue(OuterClass, TEXT("ClassGroupNames"), TEXT("Custom"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("OpenDoor.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
+				MetaData->SetValue(NewProp_pressurePlate, TEXT("Category"), TEXT("OpenDoor"));
+				MetaData->SetValue(NewProp_pressurePlate, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
+				MetaData->SetValue(NewProp_openAngle, TEXT("Category"), TEXT("OpenDoor"));
+				MetaData->SetValue(NewProp_openAngle, TEXT("ModuleRelativePath"), TEXT("OpenDoor.h"));
 #endif
 			}
 		}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UOpenDoor, 1970450352);
+	IMPLEMENT_CLASS(UOpenDoor, 1740528423);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_UOpenDoor(Z_Construct_UClass_UOpenDoor, &UOpenDoor::StaticClass, TEXT("/Script/RoomEscape"), TEXT("UOpenDoor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UOpenDoor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
