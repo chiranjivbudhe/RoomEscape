@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\RoomEscape.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{10BCDC5D-3EFE-4544-A4C9-35DB8B95D394}</UniqueIdentifier>
+      <UniqueIdentifier>{4C1D9E62-BBE0-4CC0-BAE1-188D03F69D02}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\RoomEscape.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6D8797D5-2A2D-4794-B058-98C7BF583ED0}</UniqueIdentifier>
+      <UniqueIdentifier>{D6AA1F80-C2D5-4950-829D-2EC2D078B246}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\RoomEscape">
-      <UniqueIdentifier>{06C6587F-CCCD-4C0E-AC1B-E97D1833B2FB}</UniqueIdentifier>
+      <UniqueIdentifier>{8B914312-B768-473C-BBF1-DFA8D601A61C}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\RoomEscape\PositionReport.cpp">
+      <Filter>Source\RoomEscape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RoomEscape\PositionReport.h">
+      <Filter>Source\RoomEscape</Filter>
+    </ClInclude>
     <None Include="..\..\Source\RoomEscape\RoomEscape.Build.cs">
       <Filter>Source\RoomEscape</Filter>
     </None>
@@ -43,12 +49,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\RoomEscape\PositionReport.h">
+    <ClInclude Include="..\..\Source\RoomEscape\OpenDoor.h">
       <Filter>Source\RoomEscape</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\RoomEscape\PositionReport.cpp">
+    <ClCompile Include="..\..\Source\RoomEscape\OpenDoor.cpp">
       <Filter>Source\RoomEscape</Filter>
     </ClCompile>
   </ItemGroup>

@@ -20,8 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeRoomEscape_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/RoomEscape")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x5449A051;
-			Guid.B = 0x72BB3FF6;
+			Guid.A = 0x2B7DD5BF;
+			Guid.B = 0xE960FA3B;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
