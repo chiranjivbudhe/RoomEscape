@@ -1,4 +1,4 @@
-﻿Log file open, 04/03/18 13:16:05
+﻿Log file open, 04/03/18 19:58:27
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: RoomEscape
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-555700088) SRandInit(-555700088).
+LogInit: Display: RandInit(1211639963) SRandInit(1211639963).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.185018
+LogStats: Stats thread started at 0.186756
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -114,588 +114,360 @@ LogInit: Base directory: D:/Program Files/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.03-18.16.07:210][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.03-18.16.07:210][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.03-18.16.07:246][  0]LogInit: Computer: DESKTOP-546QKGT
-[2018.04.03-18.16.07:246][  0]LogInit: User: budhe
-[2018.04.03-18.16.07:246][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.03-18.16.07:246][  0]LogInit: High frequency timer resolution =2.742189 MHz
-[2018.04.03-18.16.07:246][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.04.03-18.16.07:246][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.03-18.16.07:246][  0]LogMemory: Process Physical Memory: 285.18 MB used, 285.18 MB peak
-[2018.04.03-18.16.07:246][  0]LogMemory: Process Virtual Memory: 288.29 MB used, 288.29 MB peak
-[2018.04.03-18.16.07:246][  0]LogMemory: Physical Memory: 8573.79 MB used,  7676.91 MB free, 16250.70 MB total
-[2018.04.03-18.16.07:246][  0]LogMemory: Virtual Memory: 743.93 MB used,  7676.91 MB free, 134217728.00 MB total
-[2018.04.03-18.16.07:803][  0]LogInit: Using OS detected language (en-US).
-[2018.04.03-18.16.07:803][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.03-18.16.07:807][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.03-18.16.08:660][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.03-18.16.08:697][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.04.03-18.16.08:697][  0]LogD3D11RHI:       8074/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2018.04.03-18.16.08:707][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.04.03-18.16.08:707][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.04.03-18.16.08:709][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.03-18.16.08:709][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.03-18.16.08:709][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.03-18.16.08:717][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.03-18.16.08:717][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.03-18.16.08:717][  0]LogWindows: EnumDisplayDevices:
-[2018.04.03-18.16.08:718][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.04.03-18.16.08:718][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.04.03-18.16.08:718][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.04.03-18.16.08:718][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.04.03-18.16.08:718][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.04.03-18.16.08:718][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.04.03-18.16.08:718][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.04.03-18.16.08:718][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.03-18.16.08:718][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.04.03-18.16.08:718][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.03-18.16.08:718][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.03-18.16.08:718][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.04.03-18.16.08:747][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.03-18.16.08:758][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.04.03-18.16.08:858][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../GitHub/RoomEscape/RoomEscape/Intermediate/Shaders/WorkingDirectory/1884/).
-[2018.04.03-18.16.08:858][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/budhe/AppData/Local/Temp/UnrealShaderWorkingDir/A991FCCF4869444BF403DEB1556D0873/'.
-[2018.04.03-18.16.08:858][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.03-18.16.09:946][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.03-18.16.09:997][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.03-18.16.10:043][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.03-18.16.10:096][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.03-18.16.10:150][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.03-18.16.10:197][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.03-18.16.10:245][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.03-18.16.10:292][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.03-18.16.10:337][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.03-18.16.10:392][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.03-18.16.10:442][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.03-18.16.10:499][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.03-18.16.10:560][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.03-18.16.10:611][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.03-18.16.10:662][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.03-18.16.10:770][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.03-18.16.10:770][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.03-18.16.10:805][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.03-18.16.10:914][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.03-18.16.10:943][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.03-18.16.10:994][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.03-18.16.11:045][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.03-18.16.11:100][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.03-18.16.11:150][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.03-18.16.11:150][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.03-18.16.11:631][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.03-18.16.11:724][  0]LogDerivedDataCache: Loaded boot cache 0.09s 93MB C:/Users/budhe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.04.03-18.16.11:724][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/budhe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.04.03-18.16.11:724][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/RoomEscape/RoomEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.03-18.16.11:724][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.03-18.16.11:724][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/RoomEscape/RoomEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.03-18.16.11:724][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.03-18.16.11:742][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.03-18.16.11:755][  0]LogDerivedDataCache: Using Local data cache path C:/Users/budhe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.03-18.16.11:766][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.03-18.16.11:767][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.03-18.16.11:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.03-18.16.11:768][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.03-18.16.13:945][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
-[2018.04.03-18.16.14:070][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.03-18.16.14:294][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.04.03-18.16.14:600][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.03-18.16.14:643][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.03-18.16.14:643][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.03-18.16.14:643][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.03-18.16.14:643][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.03-18.16.14:643][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.03-18.16.15:120][  0]LogNetVersion: RoomEscape , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3863514863)
-[2018.04.03-18.16.15:660][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.292732 seconds
-[2018.04.03-18.16.15:669][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2018.04.03-18.16.15:669][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2018.04.03-18.16.15:669][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.03-18.16.15:721][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.03-18.16.18:797][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.03-18.16.18:836][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.03-18.16.19:601][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.03-18.16.20:035][  0]SourceControl: Source control is disabled
-[2018.04.03-18.16.20:035][  0]SourceControl: Source control is disabled
-[2018.04.03-18.16.20:089][  0]SourceControl: Source control is disabled
-[2018.04.03-18.16.20:140][  0]SourceControl: Source control is disabled
-[2018.04.03-18.16.20:988][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.03-18.16.21:237][  0]LogOcInput: OculusInput pre-init called
-[2018.04.03-18.16.21:511][  0]LogEngine: Initializing Engine...
-[2018.04.03-18.16.21:512][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.03-18.16.21:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.03-18.16.21:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.03-18.16.21:907][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.03-18.16.22:054][  0]LogInit: XAudio2 using 'Headset (AKG Y50BT Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
-[2018.04.03-18.16.22:071][  0]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
-[2018.04.03-18.16.22:071][  0]LogInit: FAudioDevice initialized.
-[2018.04.03-18.16.22:241][  0]LogDerivedDataCache: Saved boot cache 0.17s 93MB C:/Users/budhe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.04.03-18.16.22:250][  0]LogInit: Texture streaming: Enabled
-[2018.04.03-18.16.22:340][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.03-18.16.22:574][  0]LogInit: Transaction tracking system initialized
-[2018.04.03-18.16.22:852][  0]BlueprintLog: New page: Editor Load
-[2018.04.03-18.16.23:645][  0]LocalizationService: Localization service is disabled
-[2018.04.03-18.16.24:302][  0]LogConsoleResponse: Display: 
-[2018.04.03-18.16.24:528][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.03-18.16.24:528][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.03-18.16.24:528][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.03-18.16.24:749][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RoomEscape/RoomEscape/Content/' took 0.02s
-[2018.04.03-18.16.25:576][  0]SourceControl: Source control is disabled
-[2018.04.03-18.16.25:576][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.03-18.16.25:577][  0]LightingResults: New page: Lighting Build
-[2018.04.03-18.16.25:621][  0]MapCheck: New page: Map Check
-[2018.04.03-18.16.25:621][  0]LightingResults: New page: Lighting Build
-[2018.04.03-18.16.27:373][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.04.03-18.16.27:440][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.03-18.16.27:466][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.03-18.16.27:529][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.374ms to complete.
-[2018.04.03-18.16.27:529][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.953
-[2018.04.03-18.16.28:142][  0]LogCollectionManager: Loaded 0 collections in 0.001102 seconds
-[2018.04.03-18.16.28:277][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RoomEscape/RoomEscape/Saved/Collections/' took 0.01s
-[2018.04.03-18.16.28:277][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RoomEscape/RoomEscape/Content/Developers/budhe/Collections/' took 0.01s
-[2018.04.03-18.16.28:277][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RoomEscape/RoomEscape/Content/Collections/' took 0.01s
-[2018.04.03-18.16.28:277][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.03-18.16.28:301][  0]LogContentBrowser: Native class hierarchy populated in 0.0220 seconds. Added 2389 classes and 502 folders.
-[2018.04.03-18.16.28:385][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0038 seconds. Added 0 classes and 0 folders.
-[2018.04.03-18.16.29:976][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0022 seconds. Added 0 classes and 0 folders.
-[2018.04.03-18.16.30:104][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0030 seconds. Added 1 classes and 2 folders.
-[2018.04.03-18.16.30:558][  0]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.03-18.16.30:577][  0]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.03-18.16.30:633][  0]LogSlate: Took 0.013684 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.03-18.16.31:135][  0]LogRenderer: Reallocating scene render targets to support 1208x640 Format 10 NumSamples 1 (Frame:1).
-[2018.04.03-18.16.31:635][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0026 seconds. Added 1 classes and 2 folders.
-[2018.04.03-18.16.31:635][  0]LogLoad: (Engine Initialization) Total time: 28.03 seconds
-[2018.04.03-18.16.31:635][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.03-18.16.31:635][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.04.03-18.16.32:020][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.03-18.16.32:163][  0]LogSlate: Took 0.055855 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.03-18.16.32:314][  1]LogAssetRegistry: Asset discovery search completed in 18.3915 seconds
-[2018.04.03-18.16.32:317][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.04.03-18.16.32:317][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000135 seconds (updated 0 objects)
-[2018.04.03-18.16.56:308][246]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.03-18.16.56:524][246]LogAIModule: Creating AISystem for world NewMap01
-[2018.04.03-18.16.56:582][246]Cmd: MAP LOAD FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.03-18.16.56:582][246]LightingResults: New page: Lighting Build
-[2018.04.03-18.16.56:583][246]LoadErrors: New page: Loading map: NewMap01.umap
-[2018.04.03-18.16.56:595][246]MapCheck: New page: Map Check
-[2018.04.03-18.16.56:595][246]LightingResults: New page: Lighting Build
-[2018.04.03-18.16.56:619][246]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.03-18.16.56:647][246]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.03-18.16.56:711][246]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.275ms to complete.
-[2018.04.03-18.16.56:711][246]LogFileHelpers: Loading map 'NewMap01' took 0.130
-[2018.04.03-18.17.00:831][718]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.03-18.17.00:969][718]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.03-18.17.00:998][718]PIE: New page: PIE session: NewMap01 (Apr 3, 2018, 8:17:00 AM)
-[2018.04.03-18.17.00:998][718]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap01
-[2018.04.03-18.17.01:021][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023011s)
-[2018.04.03-18.17.01:022][718]LogAIModule: Creating AISystem for world NewMap01
-[2018.04.03-18.17.01:022][718]LogPlayLevel: PIE: World Init took: (0.000680s)
-[2018.04.03-18.17.01:022][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap01.NewMap01 to /Game/Levels/UEDPIE_0_NewMap01.NewMap01 (0.023971s)
-[2018.04.03-18.17.01:174][718]LogInit: XAudio2 using 'Headset (AKG Y50BT Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
-[2018.04.03-18.17.01:187][718]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
-[2018.04.03-18.17.01:187][718]LogInit: FAudioDevice initialized.
-[2018.04.03-18.17.01:242][718]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/RoomEscape.RoomEscapeGameMode'
-[2018.04.03-18.17.01:242][718]LogLoad: Game class is 'GameModeBase'
-[2018.04.03-18.17.01:251][718]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap01.NewMap01 up for play (max tick rate 0) at 2018.04.03-13.17.01
-[2018.04.03-18.17.01:261][718]LogWorld: Bringing up level for play took: 0.011019
-[2018.04.03-18.17.01:371][718]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0029 seconds. Added 11 classes and 0 folders.
-[2018.04.03-18.17.01:380][718]LogTemp: Warning:  SM_Chair_2 position is X=40.000 Y=-155.000 Z=25.000
-[2018.04.03-18.17.01:380][718]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap01 1.307
-[2018.04.03-18.17.09:554][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.20.21:774][551]LogActorFactory: Actor Factory created Wall_400x400
-[2018.04.03-18.20.24:769][860]LogActorFactory: Actor Factory created Wall_400x400
-[2018.04.03-18.20.29:713][388]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.03-18.20.30:344][453]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.20.38:933][391]Cmd: SELECT NONE
-[2018.04.03-18.21.23:822][549]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x400)
-[2018.04.03-18.21.25:223][656]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.21.25:767][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2018.04.03-18.21.51:297][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2018.04.03-18.21.55:323][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.03-18.21.56:553][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2018.04.03-18.21.58:039][870]Cmd: TRANSACTION UNDO
-[2018.04.03-18.21.58:039][870]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.03-18.21.58:076][870]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.03-18.21.59:325][984]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x400)
-[2018.04.03-18.22.00:024][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2018.04.03-18.22.06:306][678]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.22.22:849][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2018.04.03-18.22.23:389][434]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x400)
-[2018.04.03-18.22.24:359][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
-[2018.04.03-18.24.23:055][482]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x403)
-[2018.04.03-18.24.24:915][640]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x404)
-[2018.04.03-18.24.25:868][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
-[2018.04.03-18.24.27:444][884]Cmd: DELETE
-[2018.04.03-18.24.27:444][884]Cmd: ACTOR DELETE
-[2018.04.03-18.24.27:445][884]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.04.03-18.24.27:454][884]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2018.04.03-18.24.28:406][994]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x403)
-[2018.04.03-18.24.29:134][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
-[2018.04.03-18.24.49:931][164]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
-[2018.04.03-18.24.51:514][322]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x403)
-[2018.04.03-18.24.52:282][385]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.24.53:080][463]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
-[2018.04.03-18.25.49:005][152]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
-[2018.04.03-18.26.05:518][860]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.26.07:960][108]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x404)
-[2018.04.03-18.26.08:898][173]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.26.09:555][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
-[2018.04.03-18.26.44:065][734]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x403)
-[2018.04.03-18.26.44:919][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x403)
-[2018.04.03-18.27.11:145][470]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
-[2018.04.03-18.27.35:594][967]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
-[2018.04.03-18.27.37:565][172]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x405)
-[2018.04.03-18.27.38:466][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
-[2018.04.03-18.28.10:045][390]Cmd: TRANSACTION UNDO
-[2018.04.03-18.28.10:045][390]LogEditorTransaction: Undo Move Actors
-[2018.04.03-18.28.12:505][655]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x405)
-[2018.04.03-18.28.15:249][963]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x405)
-[2018.04.03-18.28.16:658][109]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x405)
-[2018.04.03-18.28.17:832][241]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
-[2018.04.03-18.28.18:686][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
-[2018.04.03-18.28.20:170][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
-[2018.04.03-18.28.35:281][ 72]LogEditorViewport: Clicking Background
-[2018.04.03-18.28.38:088][365]LogEditorViewport: Clicking Background
-[2018.04.03-18.28.38:315][391]LogEditorViewport: Clicking Background
-[2018.04.03-18.29.04:866][760]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door)
-[2018.04.03-18.29.05:861][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.29.29:496][226]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x406)
-[2018.04.03-18.29.30:309][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
-[2018.04.03-18.29.36:194][619]LogEditorViewport: Clicking Background
-[2018.04.03-18.29.42:030][969]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
-[2018.04.03-18.29.42:725][  7]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x407)
-[2018.04.03-18.29.43:335][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
-[2018.04.03-18.30.00:672][ 72]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.30.05:051][324]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.30.18:625][127]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.30.21:135][274]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x406)
-[2018.04.03-18.30.31:014][861]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
-[2018.04.03-18.30.31:609][896]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x406)
-[2018.04.03-18.30.32:210][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
-[2018.04.03-18.30.33:107][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.30.34:085][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.30.41:101][456]Cmd: TRANSACTION UNDO
-[2018.04.03-18.30.41:101][456]LogEditorTransaction: Undo Move Actors
-[2018.04.03-18.30.52:141][585]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.30.53:556][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.30.54:355][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
-[2018.04.03-18.30.55:043][750]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
-[2018.04.03-18.30.55:756][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.30.58:780][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
-[2018.04.03-18.30.59:492][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
-[2018.04.03-18.31.00:022][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
-[2018.04.03-18.31.00:493][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
-[2018.04.03-18.31.01:435][121]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
-[2018.04.03-18.31.01:800][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
-[2018.04.03-18.31.02:248][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
-[2018.04.03-18.31.03:062][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.31.03:665][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.31.04:345][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.31.15:445][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
-[2018.04.03-18.31.17:666][681]Cmd: DELETE
-[2018.04.03-18.31.17:666][681]Cmd: ACTOR DELETE
-[2018.04.03-18.31.17:666][681]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.04.03-18.31.17:675][681]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2018.04.03-18.31.22:870][993]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.31.23:608][ 35]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.31.36:841][721]LogActorFactory: Actor Factory created Wall_Door_400x300
-[2018.04.03-18.31.49:432][472]LogActorFactory: Actor Factory created Wall_Door_400x400
-[2018.04.03-18.31.51:405][590]LogActorFactory: Actor Factory created Wall_Door_400x400
-[2018.04.03-18.32.04:177][350]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.32.05:040][401]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.32.05:767][442]Cmd: CAMERA SNAP
-[2018.04.03-18.32.05:767][442]Snapped camera to the first selected object.
-[2018.04.03-18.32.33:827][123]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.03-18.32.35:071][195]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.32.35:836][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.32.36:868][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.32.47:326][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.32.51:077][144]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.33.01:136][737]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door)
-[2018.04.03-18.33.02:065][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.33.14:536][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.33.27:664][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.03-18.33.28:850][385]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door)
-[2018.04.03-18.33.30:225][463]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.33.31:072][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.33.31:896][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.33.45:346][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.03-18.33.47:038][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.34.12:631][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.34.27:600][879]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.34.28:664][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.34.32:705][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.34.37:718][480]Cmd: TRANSACTION UNDO
-[2018.04.03-18.34.37:718][480]LogEditorTransaction: Undo Move Actors
-[2018.04.03-18.34.38:220][509]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.34.40:398][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.34.53:217][404]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.35.35:579][938]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.35.36:213][971]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.35.47:078][619]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.03-18.35.48:056][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.35.52:618][946]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.35.53:281][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.36.01:235][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.36.01:948][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.36.12:160][111]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.36.39:208][729]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.37.43:510][580]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.37.44:256][623]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.37.45:068][669]Cmd: TRANSACTION UNDO
-[2018.04.03-18.37.45:069][669]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.03-18.37.45:506][693]Cmd: TRANSACTION UNDO
-[2018.04.03-18.37.45:506][693]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.03-18.37.45:900][714]Cmd: TRANSACTION UNDO
-[2018.04.03-18.37.45:900][714]LogEditorTransaction: Undo Move Actors
-[2018.04.03-18.37.46:519][751]Cmd: TRANSACTION UNDO
-[2018.04.03-18.37.46:519][751]LogEditorTransaction: Undo Scale Actors
-[2018.04.03-18.37.49:880][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.38.21:497][843]Cmd: TRANSACTION UNDO
-[2018.04.03-18.38.21:497][843]LogEditorTransaction: Undo Move Actors
-[2018.04.03-18.38.54:162][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Saved/Autosaves/Game/Levels/NewMap01_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.04.03-18.38.54:248][395]LogSavePackage: Save=56.74ms
-[2018.04.03-18.38.54:248][395]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01_Auto1134663204189252784C4428283876128.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Saved/Autosaves/Game/Levels/NewMap01_Auto1.umap'
-[2018.04.03-18.38.54:250][395]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Saved/Autosaves/Game/Levels/NewMap01_Auto1.umap
-[2018.04.03-18.38.54:252][395]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/NewMap01' took 0.382
-[2018.04.03-18.38.54:252][395]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.382
-[2018.04.03-18.39.05:285][429]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.39.19:433][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.39.23:496][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.03-18.39.58:181][582]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{18e55630-7e3b-4a91-9428-989aca022d9d} was removed. Shutting down audio device.
-[2018.04.03-18.40.27:040][868]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.40.27:304][882]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.03-18.40.42:200][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.40.55:329][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.41.43:090][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.42.01:845][540]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door)
-[2018.04.03-18.42.02:564][580]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.42.41:870][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
-[2018.04.03-18.42.58:561][913]LogActorFactory: Actor Factory created Wall_400x200
-[2018.04.03-18.43.00:079][  4]LogActorFactory: Actor Factory created Wall_400x200
-[2018.04.03-18.43.00:690][ 40]LogActorFactory: Actor Factory created Wall_400x200
-[2018.04.03-18.43.36:527][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
-[2018.04.03-18.43.49:076][936]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x200)
-[2018.04.03-18.43.49:860][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
-[2018.04.03-18.45.45:314][890]LogEditorViewport: Clicking Background
-[2018.04.03-18.45.47:348][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x203)
-[2018.04.03-18.46.36:092][924]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.47.12:241][ 71]Cmd: MODE SCALEGRID=0
-[2018.04.03-18.47.12:909][111]Cmd: MODE SCALEGRID=1
-[2018.04.03-18.47.13:529][148]Cmd: MODE SCALEGRID=0
-[2018.04.03-18.47.19:894][528]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.47.34:249][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.47.35:436][452]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.47.36:046][488]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door)
-[2018.04.03-18.47.36:594][519]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.47.36:987][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.48.02:885][ 84]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.48.03:924][141]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.48.04:547][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.48.22:476][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
-[2018.04.03-18.48.23:926][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.48.25:716][439]LogEditorViewport: Clicking Background
-[2018.04.03-18.48.26:332][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.48.30:770][740]LogEditorViewport: Clicking Background
-[2018.04.03-18.48.33:387][897]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.48.38:508][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.48.39:718][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.48.59:015][426]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.48.59:229][434]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.49.10:216][ 90]Cmd: TRANSACTION UNDO
-[2018.04.03-18.49.10:216][ 90]LogEditorTransaction: Undo Scale Actors
-[2018.04.03-18.49.19:535][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.49.28:267][163]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Door)
-[2018.04.03-18.49.29:047][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.49.46:521][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.49.47:277][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.49.52:625][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.49.58:125][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.50.02:312][191]MapCheck: New page: Map Check
-[2018.04.03-18.50.02:401][191]Cmd: MAP REBUILD ALLVISIBLE
-[2018.04.03-18.50.02:402][191]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.04.03-18.50.02:505][191]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.04.03-18.50.02:539][191]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2018.04.03-18.50.02:544][191]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_21, compiling. 
-[2018.04.03-18.50.02:552][191]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
-[2018.04.03-18.50.02:558][191]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
-[2018.04.03-18.50.02:566][191]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
-[2018.04.03-18.50.02:573][191]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
-[2018.04.03-18.50.02:579][191]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Basic_Wall, compiling. 
-[2018.04.03-18.50.03:871][191]TextureStreamingBuild: Display: Compiling optional shaders took 1.378 seconds.
-[2018.04.03-18.50.03:905][191]LogLevel: Display: Export Material TexCoord Scales took 0.034 seconds.
-[2018.04.03-18.50.03:925][191]TextureStreamingBuild: Display: Build Texture Streaming took 0.019 seconds.
-[2018.04.03-18.50.03:939][191]LightingResults: New page: Lighting Build - Apr 3, 2018, 8:50:03 AM
-[2018.04.03-18.50.04:158][191]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.04.03-18.50.04:448][191]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.04.03-18.50.04:459][191]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.04.03-18.50.05:472][191]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.04.03-18.50.05:472][191]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1884
-[2018.04.03-18.50.08:065][191]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.04.03-18.50.08:065][191]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.04.03-18.50.08:065][191]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.04.03-18.50.08:065][191]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.04.03-18.50.08:065][191]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.04.03-18.50.08:065][191]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.04.03-18.50.08:249][191]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.04.03-18.50.08:249][191]MapCheck: New page: NewMap01 - Apr 3, 2018, 8:50:08 AM
-[2018.04.03-18.50.08:259][191]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
-[2018.04.03-18.50.08:318][191]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 69.57ms to complete.
-[2018.04.03-18.50.08:342][191]LogEditorBuildUtils: Build time 0:05
-[2018.04.03-18.50.08:511][192]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
-[2018.04.03-18.50.08:520][192]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
-[2018.04.03-18.50.11:526][314]Job is a success!
-[2018.04.03-18.50.11:934][315]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2018.04.03-18.50.11:935][315]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.04.03-18.50.11:935][315]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.04.03-18.50.11:935][315]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2018.04.03-18.50.11:997][315]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2018.04.03-18.50.11:997][315]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X256)
-[2018.04.03-18.50.12:035][315]Lightmass on DESKTOP-546QKGT: 2.27 sec total, 176 ms importing, 27 ms setup, 371 ms photons, 1.64 sec processing, 0 ms extra exporting [16/16 mappings]. Threads: 11.3 sec total, 5.31 sec processing.
-[2018.04.03-18.50.12:048][315]LogStaticLightingSystem: Illumination: 8.08 sec (306 ms encoding lightmaps, 55 ms encoding shadowmaps)
-[2018.04.03-18.50.12:049][315]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.04.03-18.50.12:049][315]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.04.03-18.50.12:072][315]DumpUnbuiltLightIteractions
-[2018.04.03-18.50.12:072][315]Lights with unbuilt interactions: 0
-[2018.04.03-18.50.12:072][315]
-[2018.04.03-18.50.12:072][315]Primitives with unbuilt interactions: 0
-[2018.04.03-18.50.12:082][316]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.04.03-18.50.12:082][316]MapCheck: New page: NewMap01 - Apr 3, 2018, 8:50:12 AM
-[2018.04.03-18.50.12:141][316]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58.898ms to complete.
-[2018.04.03-18.50.23:871][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
-[2018.04.03-18.50.42:733][133]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.50.43:588][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2018.04.03-18.50.46:518][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.03-18.50.47:122][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.51.00:381][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.04.03-18.51.00:461][179]LogSavePackage: Save=55.38ms
-[2018.04.03-18.51.00:461][179]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap016D22AA4D4B2D3BD829646F87B17A0443.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap'
-[2018.04.03-18.51.00:467][179]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap
-[2018.04.03-18.51.00:496][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01_BuiltData" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset" SILENT=true
-[2018.04.03-18.51.00:585][179]LogSavePackage: Save=76.01ms
-[2018.04.03-18.51.00:585][179]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01_BuiltData252FE45642E02D33BBF1A38C95C8226C.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset'
-[2018.04.03-18.51.00:589][179]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset
-[2018.04.03-18.51.04:822][430]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.03-18.51.04:835][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.03-18.51.04:835][430]PIE: New page: PIE session: NewMap01 (Apr 3, 2018, 8:51:04 AM)
-[2018.04.03-18.51.04:835][430]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap01
-[2018.04.03-18.51.04:838][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002934s)
-[2018.04.03-18.51.04:840][430]LogAIModule: Creating AISystem for world NewMap01
-[2018.04.03-18.51.04:840][430]LogPlayLevel: PIE: World Init took: (0.001521s)
-[2018.04.03-18.51.04:840][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap01.NewMap01 to /Game/Levels/UEDPIE_0_NewMap01.NewMap01 (0.004768s)
-[2018.04.03-18.51.04:974][430]LogInit: XAudio2 using 'Headset (AKG Y50BT Hands-Free)' : 1 channels at 8 kHz using 16 bits per sample (channel mask 0x4)
-[2018.04.03-18.51.05:328][430]LogAudio: Error: CreateSubmixVoice (Reverb) error: XAPO Creation Failed
-[2018.04.03-18.51.05:328][430]LogInit: FAudioDevice initialized.
-[2018.04.03-18.51.05:363][430]LogLoad: Game class is 'GameModeBase'
-[2018.04.03-18.51.05:366][430]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap01.NewMap01 up for play (max tick rate 60) at 2018.04.03-13.51.05
-[2018.04.03-18.51.05:367][430]LogWorld: Bringing up level for play took: 0.001709
-[2018.04.03-18.51.05:368][430]LogTemp: Warning:  SM_Chair_2 position is X=40.000 Y=-155.000 Z=25.000
-[2018.04.03-18.51.05:369][430]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap01 1.295
-[2018.04.03-18.51.51:885][203]MapCheck: New page: Map Check
-[2018.04.03-18.51.51:904][203]LightingResults: New page: Lighting Build - Apr 3, 2018, 8:51:51 AM
-[2018.04.03-18.51.51:917][203]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.04.03-18.51.51:920][203]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.04.03-18.51.51:920][203]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.04.03-18.51.51:920][203]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.04.03-18.51.51:920][203]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1884
-[2018.04.03-18.51.56:512][203]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.04.03-18.51.56:512][203]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.04.03-18.51.56:512][203]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.04.03-18.51.56:512][203]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.04.03-18.51.56:512][203]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.04.03-18.51.56:512][203]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.04.03-18.51.56:597][203]LogEditorBuildUtils: Build time 0:04
-[2018.04.03-18.51.58:752][307]Job is a success!
-[2018.04.03-18.51.59:060][308]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
-[2018.04.03-18.51.59:060][308]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2018.04.03-18.51.59:060][308]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2018.04.03-18.51.59:060][308]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
-[2018.04.03-18.51.59:125][308]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2018.04.03-18.51.59:125][308]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X256)
-[2018.04.03-18.51.59:139][308]Lightmass on DESKTOP-546QKGT: 1.94 sec total, 127 ms importing, 21 ms setup, 365 ms photons, 1.39 sec processing, 0 ms extra exporting [16/16 mappings]. Threads: 9.58 sec total, 4.94 sec processing.
-[2018.04.03-18.51.59:159][308]LogStaticLightingSystem: Illumination: 7.22 sec (226 ms encoding lightmaps, 60 ms encoding shadowmaps)
-[2018.04.03-18.51.59:160][308]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.04.03-18.51.59:160][308]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.04.03-18.51.59:517][308]DumpUnbuiltLightIteractions
-[2018.04.03-18.51.59:517][308]Lights with unbuilt interactions: 0
-[2018.04.03-18.51.59:517][308]
-[2018.04.03-18.51.59:517][308]Primitives with unbuilt interactions: 0
-[2018.04.03-18.51.59:529][309]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.04.03-18.51.59:529][309]MapCheck: New page: NewMap01 - Apr 3, 2018, 8:51:59 AM
-[2018.04.03-18.51.59:590][309]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.156ms to complete.
-[2018.04.03-18.52.12:062][ 49]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x201)
-[2018.04.03-18.52.23:404][727]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x203)
-[2018.04.03-18.52.40:631][756]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x202)
-[2018.04.03-18.52.41:709][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
-[2018.04.03-18.52.45:638][ 51]LogEditorViewport: Clicking Background
-[2018.04.03-18.52.46:488][102]LogEditorViewport: Clicking Background
-[2018.04.03-18.52.47:488][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x203)
-[2018.04.03-18.52.50:538][342]LogEditorViewport: Clicking Background
-[2018.04.03-18.52.51:138][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x203)
-[2018.04.03-18.52.56:071][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.04.03-18.52.56:124][670]LogSavePackage: Save=37.66ms
-[2018.04.03-18.52.56:124][670]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01F26D4992447CA8D353330EA36F52DC2F.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap'
-[2018.04.03-18.52.56:128][670]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap
-[2018.04.03-18.52.56:153][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01_BuiltData" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset" SILENT=true
-[2018.04.03-18.52.56:218][670]LogSavePackage: Save=61.07ms
-[2018.04.03-18.52.56:218][670]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01_BuiltData76A7B4B64C2A6F3CF6EBB9BC985D9155.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset'
-[2018.04.03-18.52.56:222][670]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset
-[2018.04.03-18.53.01:404][972]MapCheck: New page: Map Check
-[2018.04.03-18.53.01:432][972]LightingResults: New page: Lighting Build - Apr 3, 2018, 8:53:01 AM
-[2018.04.03-18.53.01:443][972]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.04.03-18.53.01:446][972]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.04.03-18.53.01:446][972]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.04.03-18.53.01:447][972]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.04.03-18.53.01:447][972]LogSwarmInterface: [TryOpenConnection] Local Process ID is 1884
-[2018.04.03-18.53.05:960][972]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.04.03-18.53.05:960][972]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.04.03-18.53.05:960][972]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.04.03-18.53.05:960][972]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.04.03-18.53.05:960][972]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.04.03-18.53.05:960][972]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.04.03-18.53.06:043][972]LogEditorBuildUtils: Build time 0:04
-[2018.04.03-18.53.08:257][ 79]Job is a success!
-[2018.04.03-18.53.08:564][ 81]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2018.04.03-18.53.08:564][ 81]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.04.03-18.53.08:564][ 81]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.04.03-18.53.08:564][ 81]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2018.04.03-18.53.08:627][ 81]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
-[2018.04.03-18.53.08:627][ 81]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X256)
-[2018.04.03-18.53.08:652][ 81]Lightmass on DESKTOP-546QKGT: 2.00 sec total, 127 ms importing, 20 ms setup, 374 ms photons, 1.43 sec processing, 0 ms extra exporting [16/16 mappings]. Threads: 9.89 sec total, 5.14 sec processing.
-[2018.04.03-18.53.08:662][ 81]LogStaticLightingSystem: Illumination: 7.19 sec (222 ms encoding lightmaps, 58 ms encoding shadowmaps)
-[2018.04.03-18.53.08:662][ 81]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.04.03-18.53.08:662][ 81]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.04.03-18.53.08:966][ 81]DumpUnbuiltLightIteractions
-[2018.04.03-18.53.08:966][ 81]Lights with unbuilt interactions: 0
-[2018.04.03-18.53.08:966][ 81]
-[2018.04.03-18.53.08:966][ 81]Primitives with unbuilt interactions: 0
-[2018.04.03-18.53.08:978][ 82]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.04.03-18.53.08:979][ 82]MapCheck: New page: NewMap01 - Apr 3, 2018, 8:53:08 AM
-[2018.04.03-18.53.09:039][ 82]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.279ms to complete.
-[2018.04.03-18.53.23:465][947]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.53.26:462][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.53.28:421][239]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.53.32:084][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
-[2018.04.03-18.53.34:606][604]Cmd: TRANSACTION UNDO
-[2018.04.03-18.53.34:606][604]LogEditorTransaction: Undo Move Actors
-[2018.04.03-18.53.35:269][643]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-18.53.43:036][106]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2018.04.03-18.53.43:911][154]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2018.04.03-18.53.44:620][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.03-18.53.53:803][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.04.03-18.53.53:854][744]LogSavePackage: Save=37.02ms
-[2018.04.03-18.53.53:854][744]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap0118FA12CF4A1E3F60DB2D3D8F46248A2B.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap'
-[2018.04.03-18.53.53:858][744]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap
-[2018.04.03-18.53.53:883][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01_BuiltData" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset" SILENT=true
-[2018.04.03-18.53.53:951][744]LogSavePackage: Save=64.88ms
-[2018.04.03-18.53.53:951][744]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01_BuiltDataE07821F04D6CD9632052EAB9A10E6CDE.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset'
-[2018.04.03-18.53.53:956][744]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset
-[2018.04.03-18.55.15:867][596]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
-[2018.04.03-19.03.31:958][199]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.03-19.03.39:980][676]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
-[2018.04.03-19.03.44:814][963]Cmd: TRANSACTION UNDO
-[2018.04.03-19.03.44:815][963]LogEditorTransaction: Undo Move Actors
-[2018.04.03-19.04.12:293][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Saved/Autosaves/Game/Levels/NewMap01_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2018.04.03-19.04.12:354][201]LogSavePackage: Save=48.52ms
-[2018.04.03-19.04.12:354][201]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01_Auto2BC2BFDC84C6594AA279E5985EB38880D.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Saved/Autosaves/Game/Levels/NewMap01_Auto2.umap'
-[2018.04.03-19.04.12:358][201]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Saved/Autosaves/Game/Levels/NewMap01_Auto2.umap
-[2018.04.03-19.04.12:363][201]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/NewMap01' took 0.084
-[2018.04.03-19.04.12:363][201]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.084
+[2018.04.04-00.58.29:650][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.04-00.58.29:650][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.04-00.58.29:664][  0]LogInit: Computer: DESKTOP-546QKGT
+[2018.04.04-00.58.29:664][  0]LogInit: User: budhe
+[2018.04.04-00.58.29:664][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.04-00.58.29:664][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.04.04-00.58.29:664][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.04-00.58.29:664][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.04-00.58.29:664][  0]LogMemory: Process Physical Memory: 284.45 MB used, 284.45 MB peak
+[2018.04.04-00.58.29:664][  0]LogMemory: Process Virtual Memory: 284.05 MB used, 284.05 MB peak
+[2018.04.04-00.58.29:664][  0]LogMemory: Physical Memory: 8804.70 MB used,  7446.00 MB free, 16250.70 MB total
+[2018.04.04-00.58.29:664][  0]LogMemory: Virtual Memory: 739.93 MB used,  7446.00 MB free, 134217728.00 MB total
+[2018.04.04-00.58.30:210][  0]LogInit: Using OS detected language (en-US).
+[2018.04.04-00.58.30:210][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.04-00.58.30:214][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.04-00.58.31:115][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.04-00.58.31:159][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.04.04-00.58.31:160][  0]LogD3D11RHI:       8074/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.04.04-00.58.31:171][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.04.04-00.58.31:171][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.04-00.58.31:174][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.04-00.58.31:174][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.04-00.58.31:174][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.04-00.58.31:183][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.04-00.58.31:183][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.04-00.58.31:183][  0]LogWindows: EnumDisplayDevices:
+[2018.04.04-00.58.31:183][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.04.04-00.58.31:183][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.04.04-00.58.31:183][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.04.04-00.58.31:184][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.04.04-00.58.31:184][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.04.04-00.58.31:184][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.04-00.58.31:184][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.04.04-00.58.31:184][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.04-00.58.31:184][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.04.04-00.58.31:184][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.04-00.58.31:184][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.04-00.58.31:184][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.04-00.58.31:216][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.04-00.58.31:228][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.04-00.58.31:329][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../GitHub/RoomEscape/RoomEscape/Intermediate/Shaders/WorkingDirectory/13548/).
+[2018.04.04-00.58.31:329][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/budhe/AppData/Local/Temp/UnrealShaderWorkingDir/05C74DA84F715CE57059869797581740/'.
+[2018.04.04-00.58.31:329][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.04-00.58.32:390][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.04-00.58.32:436][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.04-00.58.32:482][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.04-00.58.32:531][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.04-00.58.32:577][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.04-00.58.32:628][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.04-00.58.32:677][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.04-00.58.32:724][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.04-00.58.32:764][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.04-00.58.32:818][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.04-00.58.32:867][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.04-00.58.32:916][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.04-00.58.32:965][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.04-00.58.33:016][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.04-00.58.33:063][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.04-00.58.33:158][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.04-00.58.33:158][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.04-00.58.33:194][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.04-00.58.33:280][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.04-00.58.33:305][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.04-00.58.33:351][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.04-00.58.33:398][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.04-00.58.33:444][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.04-00.58.33:491][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.04-00.58.33:491][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.04-00.58.33:913][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.04-00.58.34:015][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/budhe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.04-00.58.34:015][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/budhe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.04.04-00.58.34:015][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitHub/RoomEscape/RoomEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.04-00.58.34:015][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.04-00.58.34:015][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitHub/RoomEscape/RoomEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.04-00.58.34:015][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.04-00.58.34:034][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.04-00.58.34:047][  0]LogDerivedDataCache: Using Local data cache path C:/Users/budhe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.04-00.58.34:057][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.04-00.58.34:058][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.04-00.58.34:059][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.04-00.58.34:059][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.04-00.58.34:376][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2018.04.04-00.58.34:493][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.04-00.58.34:661][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.04-00.58.35:060][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.04-00.58.35:111][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.04-00.58.35:111][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.04-00.58.35:111][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.04-00.58.35:111][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.04-00.58.35:111][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.04-00.58.35:514][  0]LogNetVersion: RoomEscape , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3863514863)
+[2018.04.04-00.58.35:890][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.095916 seconds
+[2018.04.04-00.58.35:902][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.04.04-00.58.35:903][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.04.04-00.58.35:903][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.04-00.58.35:982][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.04-00.58.39:048][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.04-00.58.39:085][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.04-00.58.39:754][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.04-00.58.40:162][  0]SourceControl: Source control is disabled
+[2018.04.04-00.58.40:162][  0]SourceControl: Source control is disabled
+[2018.04.04-00.58.40:208][  0]SourceControl: Source control is disabled
+[2018.04.04-00.58.40:254][  0]SourceControl: Source control is disabled
+[2018.04.04-00.58.40:792][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.04-00.58.41:041][  0]LogOcInput: OculusInput pre-init called
+[2018.04.04-00.58.41:281][  0]LogEngine: Initializing Engine...
+[2018.04.04-00.58.41:282][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.04-00.58.41:517][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.04-00.58.41:517][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.04-00.58.41:646][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.04-00.58.41:732][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.04-00.58.41:805][  0]LogInit: FAudioDevice initialized.
+[2018.04.04-00.58.41:971][  0]LogDerivedDataCache: Saved boot cache 0.17s 93MB C:/Users/budhe/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.04-00.58.41:992][  0]LogInit: Texture streaming: Enabled
+[2018.04.04-00.58.42:074][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.04-00.58.42:074][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={11D5232A-4EBE-CD15-AD4E-ECB5DCE23AD0}
+[2018.04.04-00.58.42:265][  0]LogInit: Transaction tracking system initialized
+[2018.04.04-00.58.42:537][  0]BlueprintLog: New page: Editor Load
+[2018.04.04-00.58.43:312][  0]LocalizationService: Localization service is disabled
+[2018.04.04-00.58.43:952][  0]LogConsoleResponse: Display: 
+[2018.04.04-00.58.44:152][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.04-00.58.44:152][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.04-00.58.44:152][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.04-00.58.44:409][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RoomEscape/RoomEscape/Content/' took 0.01s
+[2018.04.04-00.58.45:136][  0]SourceControl: Source control is disabled
+[2018.04.04-00.58.45:136][  0]Cmd: MAP LOAD FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.04-00.58.45:137][  0]LightingResults: New page: Lighting Build
+[2018.04.04-00.58.45:174][  0]MapCheck: New page: Map Check
+[2018.04.04-00.58.45:174][  0]LightingResults: New page: Lighting Build
+[2018.04.04-00.58.45:531][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2018.04.04-00.58.45:544][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.04-00.58.45:559][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.04-00.58.45:627][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.048ms to complete.
+[2018.04.04-00.58.45:627][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.491
+[2018.04.04-00.58.45:816][  0]LogCollectionManager: Loaded 0 collections in 0.001428 seconds
+[2018.04.04-00.58.45:900][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RoomEscape/RoomEscape/Saved/Collections/' took 0.01s
+[2018.04.04-00.58.45:901][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RoomEscape/RoomEscape/Content/Developers/budhe/Collections/' took 0.01s
+[2018.04.04-00.58.45:901][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/RoomEscape/RoomEscape/Content/Collections/' took 0.01s
+[2018.04.04-00.58.45:901][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.04-00.58.45:912][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2389 classes and 502 folders.
+[2018.04.04-00.58.45:968][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0027 seconds. Added 0 classes and 0 folders.
+[2018.04.04-00.58.46:036][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2018.04.04-00.58.46:077][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2018.04.04-00.58.46:106][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.04-00.58.46:109][  0]LogSlate: Took 0.000316 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.04-00.58.46:115][  0]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.04-00.58.46:229][  0]LogRenderer: Reallocating scene render targets to support 1208x640 Format 10 NumSamples 1 (Frame:1).
+[2018.04.04-00.58.46:423][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2018.04.04-00.58.46:423][  0]LogLoad: (Engine Initialization) Total time: 19.79 seconds
+[2018.04.04-00.58.46:423][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.04-00.58.46:424][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.04-00.58.46:782][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.04-00.58.46:819][  0]LogSlate: Took 0.000547 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.04-00.58.47:106][  1]LogAssetRegistry: Asset discovery search completed in 12.7518 seconds
+[2018.04.04-00.58.47:108][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.04-00.58.47:108][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2018.04.04-00.58.51:474][ 91]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.04-00.58.51:653][ 91]LogAIModule: Creating AISystem for world NewMap01
+[2018.04.04-00.58.51:674][ 91]Cmd: MAP LOAD FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.04-00.58.51:674][ 91]LightingResults: New page: Lighting Build
+[2018.04.04-00.58.51:674][ 91]LoadErrors: New page: Loading map: NewMap01.umap
+[2018.04.04-00.58.51:675][ 91]MapCheck: New page: Map Check
+[2018.04.04-00.58.51:675][ 91]LightingResults: New page: Lighting Build
+[2018.04.04-00.58.51:690][ 91]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.04-00.58.51:723][ 91]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.04-00.58.51:803][ 91]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.654ms to complete.
+[2018.04.04-00.58.51:804][ 91]LogFileHelpers: Loading map 'NewMap01' took 0.131
+[2018.04.04-00.58.53:419][182]Candidate modules for hot reload:
+[2018.04.04-00.58.53:419][182]  RoomEscape
+[2018.04.04-00.58.53:419][182]Launching UnrealBuildTool... [D:/Program Files/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoomEscape -ModuleWithSuffix RoomEscape 9583 Win64 Development -editorrecompile -canskiplink "D:/GitHub/RoomEscape/RoomEscape/RoomEscape.uproject" ]
+[2018.04.04-00.58.53:494][182]Warning: Starting HotReload took  0.1s.
+[2018.04.04-00.59.13:532][692]CompilerResultsLog: New page: Compilation - Apr 3, 2018, 2:59:13 PM
+[2018.04.04-00.59.13:532][692]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.04-00.59.13:532][692]CompilerResultsLog: Parsing headers for RoomEscapeEditor
+[2018.04.04-00.59.13:532][692]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\RoomEscape\RoomEscape\RoomEscape.uproject" "D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\RoomEscapeEditor\Development\RoomEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.04-00.59.13:532][692]CompilerResultsLog: Reflection code generated for RoomEscapeEditor in 11.0442912 seconds
+[2018.04.04-00.59.13:532][692]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2018.04.04-00.59.13:532][692]CompilerResultsLog: OpenDoor.gen.cpp
+[2018.04.04-00.59.13:533][692]CompilerResultsLog: OpenDoor.cpp
+[2018.04.04-00.59.13:533][692]CompilerResultsLog: [3/4] Link UE4Editor-RoomEscape-9583.dll
+[2018.04.04-00.59.13:533][692]CompilerResultsLog: [4/4] Link UE4Editor-RoomEscape-9583.lib
+[2018.04.04-00.59.13:533][692]CompilerResultsLog:    Creating library D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-9583.lib and object D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-9583.exp
+[2018.04.04-00.59.13:533][692]CompilerResultsLog:    Creating library D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-9583.suppressed.lib and object D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-9583.suppressed.exp
+[2018.04.04-00.59.13:533][692]CompilerResultsLog: Total build time: 19.69 seconds (Local executor: 2.70 seconds)
+[2018.04.04-00.59.13:533][692]LogMainFrame: MainFrame: Module compiling took 20.129 seconds
+[2018.04.04-00.59.13:608][692]LogContentBrowser: Native class hierarchy updated for 'RoomEscape' in 0.0033 seconds. Added 3 classes and 2 folders.
+[2018.04.04-00.59.13:610][692]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.04-00.59.13:680][692]LogContentBrowser: Native class hierarchy populated in 0.0141 seconds. Added 2391 classes and 506 folders.
+[2018.04.04-00.59.13:680][692]Display: HotReload took 20.3s.
+[2018.04.04-00.59.22:554][719]Candidate modules for hot reload:
+[2018.04.04-00.59.22:554][719]  RoomEscape
+[2018.04.04-00.59.22:554][719]Launching UnrealBuildTool... [D:/Program Files/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoomEscape -ModuleWithSuffix RoomEscape 2779 Win64 Development -editorrecompile -canskiplink "D:/GitHub/RoomEscape/RoomEscape/RoomEscape.uproject" ]
+[2018.04.04-00.59.22:627][719]Warning: Starting HotReload took  0.1s.
+[2018.04.04-00.59.41:235][922]CompilerResultsLog: New page: Compilation - Apr 3, 2018, 2:59:41 PM
+[2018.04.04-00.59.41:235][922]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.04-00.59.41:235][922]CompilerResultsLog: Parsing headers for RoomEscapeEditor
+[2018.04.04-00.59.41:235][922]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\RoomEscape\RoomEscape\RoomEscape.uproject" "D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\RoomEscapeEditor\Development\RoomEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.04-00.59.41:235][922]CompilerResultsLog: Reflection code generated for RoomEscapeEditor in 10.4044903 seconds
+[2018.04.04-00.59.41:235][922]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.04-00.59.41:235][922]CompilerResultsLog: OpenDoor.cpp
+[2018.04.04-00.59.41:236][922]CompilerResultsLog: [2/3] Link UE4Editor-RoomEscape-2779.dll
+[2018.04.04-00.59.41:236][922]CompilerResultsLog: [3/3] Link UE4Editor-RoomEscape-2779.lib
+[2018.04.04-00.59.41:236][922]CompilerResultsLog:    Creating library D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-2779.lib and object D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-2779.exp
+[2018.04.04-00.59.41:236][922]CompilerResultsLog:    Creating library D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-2779.suppressed.lib and object D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-2779.suppressed.exp
+[2018.04.04-00.59.41:236][922]CompilerResultsLog: Total build time: 18.22 seconds (Local executor: 2.38 seconds)
+[2018.04.04-00.59.41:236][922]LogMainFrame: MainFrame: Module compiling took 18.697 seconds
+[2018.04.04-00.59.41:312][922]LogContentBrowser: Native class hierarchy updated for 'RoomEscape' in 0.0023 seconds. Added 3 classes and 2 folders.
+[2018.04.04-00.59.41:314][922]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.04-00.59.41:356][922]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2391 classes and 506 folders.
+[2018.04.04-00.59.41:356][922]Display: HotReload took 18.8s.
+[2018.04.04-00.59.43:612][932]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.04-00.59.43:648][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-00.59.43:649][932]PIE: New page: PIE session: NewMap01 (Apr 3, 2018, 2:59:43 PM)
+[2018.04.04-00.59.43:649][932]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap01
+[2018.04.04-00.59.43:653][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004731s)
+[2018.04.04-00.59.43:654][932]LogAIModule: Creating AISystem for world NewMap01
+[2018.04.04-00.59.43:654][932]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2018.04.04-00.59.43:654][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap01.NewMap01 to /Game/Levels/UEDPIE_0_NewMap01.NewMap01 (0.006019s)
+[2018.04.04-00.59.43:735][932]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.04-00.59.43:799][932]LogInit: FAudioDevice initialized.
+[2018.04.04-00.59.43:846][932]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/RoomEscape.RoomEscapeGameMode'
+[2018.04.04-00.59.43:846][932]LogLoad: Game class is 'GameModeBase'
+[2018.04.04-00.59.43:850][932]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap01.NewMap01 up for play (max tick rate 60) at 2018.04.03-19.59.43
+[2018.04.04-00.59.43:851][932]LogWorld: Bringing up level for play took: 0.002543
+[2018.04.04-00.59.43:906][932]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0023 seconds. Added 11 classes and 0 folders.
+[2018.04.04-00.59.43:907][932]LogTemp: Warning:  SM_Chair_2 position is X=40.000 Y=-103.000 Z=25.000
+[2018.04.04-00.59.43:907][932]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap01 1.13
+[2018.04.04-01.00.02:167][509]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.04-01.00.02:187][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-01.00.02:187][509]PIE: New page: PIE session: NewMap01 (Apr 3, 2018, 3:00:02 PM)
+[2018.04.04-01.00.02:187][509]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap01
+[2018.04.04-01.00.02:191][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003853s)
+[2018.04.04-01.00.02:192][509]LogAIModule: Creating AISystem for world NewMap01
+[2018.04.04-01.00.02:192][509]LogPlayLevel: PIE: World Init took: (0.001059s)
+[2018.04.04-01.00.02:193][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap01.NewMap01 to /Game/Levels/UEDPIE_0_NewMap01.NewMap01 (0.005255s)
+[2018.04.04-01.00.02:288][509]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.04-01.00.02:357][509]LogInit: FAudioDevice initialized.
+[2018.04.04-01.00.02:392][509]LogLoad: Game class is 'GameModeBase'
+[2018.04.04-01.00.02:393][509]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap01.NewMap01 up for play (max tick rate 60) at 2018.04.03-20.00.02
+[2018.04.04-01.00.02:394][509]LogWorld: Bringing up level for play took: 0.001522
+[2018.04.04-01.00.02:395][509]LogTemp: Warning:  SM_Chair_2 position is X=40.000 Y=-103.000 Z=25.000
+[2018.04.04-01.00.02:395][509]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap01 -0.382
+[2018.04.04-01.00.04:677][640]Candidate modules for hot reload:
+[2018.04.04-01.00.04:677][640]  RoomEscape
+[2018.04.04-01.00.04:678][640]Launching UnrealBuildTool... [D:/Program Files/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoomEscape -ModuleWithSuffix RoomEscape 9352 Win64 Development -editorrecompile -canskiplink "D:/GitHub/RoomEscape/RoomEscape/RoomEscape.uproject" ]
+[2018.04.04-01.00.04:753][640]Warning: Starting HotReload took  0.1s.
+[2018.04.04-01.00.21:884][848]CompilerResultsLog: New page: Compilation - Apr 3, 2018, 3:00:21 PM
+[2018.04.04-01.00.21:884][848]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.04-01.00.21:884][848]CompilerResultsLog: Parsing headers for RoomEscapeEditor
+[2018.04.04-01.00.21:884][848]CompilerResultsLog:   Running UnrealHeaderTool "D:\GitHub\RoomEscape\RoomEscape\RoomEscape.uproject" "D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\RoomEscapeEditor\Development\RoomEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2018.04.04-01.00.21:884][848]CompilerResultsLog: Reflection code generated for RoomEscapeEditor in 8.905222 seconds
+[2018.04.04-01.00.21:884][848]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2018.04.04-01.00.21:884][848]CompilerResultsLog: OpenDoor.cpp
+[2018.04.04-01.00.21:884][848]CompilerResultsLog: [2/3] Link UE4Editor-RoomEscape-9352.dll
+[2018.04.04-01.00.21:884][848]CompilerResultsLog: [3/3] Link UE4Editor-RoomEscape-9352.lib
+[2018.04.04-01.00.21:884][848]CompilerResultsLog:    Creating library D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-9352.lib and object D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-9352.exp
+[2018.04.04-01.00.21:884][848]CompilerResultsLog:    Creating library D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-9352.suppressed.lib and object D:\GitHub\RoomEscape\RoomEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoomEscape-9352.suppressed.exp
+[2018.04.04-01.00.21:884][848]CompilerResultsLog: Total build time: 16.72 seconds (Local executor: 2.36 seconds)
+[2018.04.04-01.00.21:884][848]LogMainFrame: MainFrame: Module compiling took 17.224 seconds
+[2018.04.04-01.00.21:948][848]LogContentBrowser: Native class hierarchy updated for 'RoomEscape' in 0.0021 seconds. Added 3 classes and 2 folders.
+[2018.04.04-01.00.21:950][848]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2018.04.04-01.00.21:982][848]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 2391 classes and 506 folders.
+[2018.04.04-01.00.21:982][848]Display: HotReload took 17.3s.
+[2018.04.04-01.00.22:961][856]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.04-01.00.22:977][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-01.00.22:978][856]PIE: New page: PIE session: NewMap01 (Apr 3, 2018, 3:00:22 PM)
+[2018.04.04-01.00.22:978][856]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap01
+[2018.04.04-01.00.22:982][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004334s)
+[2018.04.04-01.00.22:983][856]LogAIModule: Creating AISystem for world NewMap01
+[2018.04.04-01.00.22:983][856]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2018.04.04-01.00.22:983][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap01.NewMap01 to /Game/Levels/UEDPIE_0_NewMap01.NewMap01 (0.005790s)
+[2018.04.04-01.00.23:058][856]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.04-01.00.23:114][856]LogInit: FAudioDevice initialized.
+[2018.04.04-01.00.23:147][856]LogLoad: Game class is 'GameModeBase'
+[2018.04.04-01.00.23:150][856]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap01.NewMap01 up for play (max tick rate 60) at 2018.04.03-20.00.23
+[2018.04.04-01.00.23:150][856]LogWorld: Bringing up level for play took: 0.001699
+[2018.04.04-01.00.23:151][856]LogTemp: Warning:  SM_Chair_2 position is X=40.000 Y=-103.000 Z=25.000
+[2018.04.04-01.00.23:151][856]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap01 0.374
+[2018.04.04-01.00.33:849][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-01.00.33:924][492]LogSavePackage: Save=53.38ms
+[2018.04.04-01.00.33:924][492]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01909F401443D3EFAE580947A1E1151726.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap'
+[2018.04.04-01.00.33:926][492]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap
+[2018.04.04-01.00.33:952][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01_BuiltData" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset" SILENT=true
+[2018.04.04-01.00.34:060][492]LogSavePackage: Save=99.22ms
+[2018.04.04-01.00.34:060][492]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01_BuiltData07307187475A514B0FAD0DB409CBD6E1.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset'
+[2018.04.04-01.00.34:062][492]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset
+[2018.04.04-01.52.59:093][ 92]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.04-01.52.59:111][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-01.52.59:111][ 92]PIE: New page: PIE session: NewMap01 (Apr 3, 2018, 3:52:59 PM)
+[2018.04.04-01.52.59:111][ 92]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap01
+[2018.04.04-01.52.59:115][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003934s)
+[2018.04.04-01.52.59:117][ 92]LogAIModule: Creating AISystem for world NewMap01
+[2018.04.04-01.52.59:117][ 92]LogPlayLevel: PIE: World Init took: (0.001780s)
+[2018.04.04-01.52.59:117][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap01.NewMap01 to /Game/Levels/UEDPIE_0_NewMap01.NewMap01 (0.006071s)
+[2018.04.04-01.52.59:199][ 92]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.04-01.52.59:255][ 92]LogInit: FAudioDevice initialized.
+[2018.04.04-01.52.59:292][ 92]LogLoad: Game class is 'GameModeBase'
+[2018.04.04-01.52.59:295][ 92]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap01.NewMap01 up for play (max tick rate 60) at 2018.04.03-20.52.59
+[2018.04.04-01.52.59:295][ 92]LogWorld: Bringing up level for play took: 0.002021
+[2018.04.04-01.52.59:297][ 92]LogTemp: Warning:  SM_Chair_2 position is X=40.000 Y=-103.000 Z=25.000
+[2018.04.04-01.52.59:297][ 92]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap01 0.52
+[2018.04.04-01.53.56:440][500]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.04-01.53.57:713][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.04.04-01.53.58:332][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.04.04-01.54.00:898][757]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.04-01.54.02:236][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.04.04-01.54.02:884][873]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.04.04-01.54.03:383][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x400)
+[2018.04.04-01.54.04:100][942]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.04-01.54.04:817][983]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.04-01.54.05:369][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.04.04-01.54.06:439][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2018.04.04-01.54.08:936][222]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.04-01.54.09:573][258]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.04-01.54.10:086][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door)
+[2018.04.04-01.54.22:175][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-01.54.22:271][  0]LogSavePackage: Save=73.98ms
+[2018.04.04-01.54.22:271][  0]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap017FE13A5043225C13B99F009B3028EEE0.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap'
+[2018.04.04-01.54.22:275][  0]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap
+[2018.04.04-01.54.22:299][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01_BuiltData" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset" SILENT=true
+[2018.04.04-01.54.22:376][  0]LogSavePackage: Save=66.96ms
+[2018.04.04-01.54.22:376][  0]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01_BuiltData355973364272653AA6FA5DBFF1831997.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset'
+[2018.04.04-01.54.22:377][  0]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset
+[2018.04.04-01.54.24:078][100]Candidate modules for hot reload:
+[2018.04.04-01.54.24:078][100]  RoomEscape
+[2018.04.04-01.54.24:079][100]Launching UnrealBuildTool... [D:/Program Files/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoomEscape -ModuleWithSuffix RoomEscape 1093 Win64 Development -editorrecompile -canskiplink "D:/GitHub/RoomEscape/RoomEscape/RoomEscape.uproject" ]
+[2018.04.04-01.54.24:153][100]Warning: Starting HotReload took  0.1s.
+[2018.04.04-01.54.29:717][433]CompilerResultsLog: New page: Compilation - Apr 3, 2018, 3:54:29 PM
+[2018.04.04-01.54.29:717][433]CompilerResultsLog: Compiling game modules for hot reload
+[2018.04.04-01.54.29:717][433]CompilerResultsLog: Target is up to date
+[2018.04.04-01.54.29:717][433]CompilerResultsLog: Total build time: 5.25 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2018.04.04-01.54.29:717][433]LogMainFrame: MainFrame: Module compiling took 5.657 seconds
+[2018.04.04-01.54.29:742][433]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2391 classes and 506 folders.
+[2018.04.04-01.54.29:742][433]Display: HotReload took  5.7s.
+[2018.04.04-01.54.36:341][829]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.04-01.54.36:354][829]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-01.54.36:354][829]PIE: New page: PIE session: NewMap01 (Apr 3, 2018, 3:54:36 PM)
+[2018.04.04-01.54.36:355][829]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap01
+[2018.04.04-01.54.36:358][829]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003523s)
+[2018.04.04-01.54.36:359][829]LogAIModule: Creating AISystem for world NewMap01
+[2018.04.04-01.54.36:360][829]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2018.04.04-01.54.36:360][829]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap01.NewMap01 to /Game/Levels/UEDPIE_0_NewMap01.NewMap01 (0.004986s)
+[2018.04.04-01.54.36:448][829]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.04.04-01.54.36:504][829]LogInit: FAudioDevice initialized.
+[2018.04.04-01.54.36:536][829]LogLoad: Game class is 'GameModeBase'
+[2018.04.04-01.54.36:539][829]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap01.NewMap01 up for play (max tick rate 60) at 2018.04.03-20.54.36
+[2018.04.04-01.54.36:539][829]LogWorld: Bringing up level for play took: 0.001862
+[2018.04.04-01.54.36:540][829]LogTemp: Warning:  SM_Chair_2 position is X=40.000 Y=-103.000 Z=25.000
+[2018.04.04-01.54.36:540][829]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_NewMap01 -0.236
+[2018.04.04-01.55.48:133][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-01.55.48:201][115]LogSavePackage: Save=51.71ms
+[2018.04.04-01.55.48:201][115]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01E298EA8C476245C455F4F980FCFBEE84.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap'
+[2018.04.04-01.55.48:203][115]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01.umap
+[2018.04.04-01.55.48:228][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/NewMap01_BuiltData" FILE="../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset" SILENT=true
+[2018.04.04-01.55.48:303][115]LogSavePackage: Save=71.91ms
+[2018.04.04-01.55.48:304][115]LogSavePackage: Moving '../../../../../GitHub/RoomEscape/RoomEscape/Saved/NewMap01_BuiltData617316CA4C3EE51158D317BAFEABB005.tmp' to '../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset'
+[2018.04.04-01.55.48:305][115]LogSavePackage: Display: Finished SavePackage ../../../../../GitHub/RoomEscape/RoomEscape/Content/Levels/NewMap01_BuiltData.uasset
